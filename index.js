@@ -60,7 +60,7 @@ app.use(function(req, res, next){
  
  // Display Message for the root path to show the API is working
  app.get('/', (req, res) =>{
-     res.send('Api is working, Please select a collection, eg /collection/lessonInfo Or /collection/orderInfo');
+     res.send('Welcome To FixitNG API 👋, Please select a collection to continue');
  })
 
  //Retrieve all the objects from a collection within MongoDB
